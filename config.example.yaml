@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+logging:
+  level: debug
+github:
+  token: ""
+jenkins:
+  url: "https://jenkins/"
+  username: "jenkins"
+  password: ""
+
+commands:
+  prefix: /
+  command:
+    - name: set
+      description: "assadsad"
+      parameters: 2
+      context: "All"
+      successMessage: >
+        A few milliseconds I talked to *jenkins* and he agreed to create a new build with the new environment values :robot:
+      errorMessage: "This is a error message, bip bop"
