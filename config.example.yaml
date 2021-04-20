@@ -5,6 +5,12 @@ logging:
   level: debug
 github:
   token: ""
+  appId: 0
+  appInstallation: 0
+  appPrivateKey: |
+    -----BEGIN RSA PRIVATE KEY-----
+    YOUR KEY
+    -----END RSA PRIVATE KEY----- 
 jenkins:
   url: "https://jenkins/"
   username: "jenkins"
