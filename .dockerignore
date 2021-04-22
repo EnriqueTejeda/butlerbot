@@ -1,0 +1,6 @@
+helm/
+doc/
+.gitignore
+config.example.yaml
+LICENSE
+README.md

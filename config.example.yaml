@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+logging:
+  level: debug
+github:
+  appId: 0
+  appInstallation: 0
+  appPrivateKey: |
+    -----BEGIN RSA PRIVATE KEY-----
+    YOUR KEY
+    -----END RSA PRIVATE KEY-----
+  pullRequests:
+    checkTitle: true
+    checkBody: true
+    commands:
+      prefix: "/"
+      command:
+        - name: "lgtm"
+          description: "lgtm command"
