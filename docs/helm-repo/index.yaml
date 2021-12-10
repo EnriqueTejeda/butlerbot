@@ -3,12 +3,12 @@ entries:
   butlerci:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-12-10T17:16:15.705243172-05:00"
+    created: "2021-12-10T17:24:14.074606188-05:00"
     description: A simple bot for github with awesome features
-    digest: f8f40d00bd228a9f049c87fea2d7c69ec12e7144ec52db6c4f315cb44b75921e
+    digest: ac51d823679d94c66b279dee020fe85541f9d0c91ee3a0412c31851a0cfbdad2
     name: butlerci
     type: application
     urls:
     - https://enriquetejeda.github.io/butlerci/helm-repo/butlerci-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-10T17:16:15.70298554-05:00"
+generated: "2021-12-10T17:24:14.071962652-05:00"

@@ -34,7 +34,7 @@ spec:
           volumeMounts:
             - mountPath: /app/config.yaml
               name: config-volume
-              subPath: config.yaml
+              subPath: config.yml
               readOnly: true
           {{- with .Values.livenessProbe }}
           livenessProbe:
