@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  butlerci:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2021-12-10T15:00:29.186536371-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 00593a1e53cbd638f5677e27f7e0d9ee94e92b22b943ec4114fa9921e00e4324
+    name: butlerci
+    type: application
+    urls:
+    - https://enriquetejeda.github.io/butlerci/docs/helm-repo/butlerci-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-12-10T15:00:29.184040513-05:00"
