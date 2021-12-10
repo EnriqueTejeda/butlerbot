@@ -77,13 +77,13 @@ resources:
     cpu: 25m
     memory: 64Mi
 
-# autoscaling:
-#   enabled: false
-#   minReplicas: 1
-#   maxReplicas: 6
-#   targetCPUUtilizationPercentage: 70
-#   vpa:
-#     enabled: true
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 70
+  vpa:
+    enabled: false
 
 livenessProbe:
   httpGet:
